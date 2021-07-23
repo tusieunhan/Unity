@@ -1,4 +1,20 @@
 
+// Sidebar 
+
+const btn_menu = document.querySelector('.bx-menu')
+const sidebar = document.querySelector('.sidebar')
+const header_sidebar = document.querySelector('.header-sidebar')
+const slide_item = document.querySelector('.slide-item')
+
+
+btn_menu.addEventListener("click", function(){ 
+     sidebar.style.display = "block"
+     // sidebar.classList.toggle('bar-acticve')
+     // sidebar.classList.toggle('active')
+});
+
+
+
 // Start Header
 const header_browse = document.querySelector('.header-browse')
 const box_browse = document.querySelector('.box-browse')
@@ -68,12 +84,7 @@ function slide_show(index) {
           
 }
 
-// Sidebar 
 
-const btn_menu = document.querySelector('.bx-menu')
-const sidebar = document.querySelector('.sidebar')
-const header_sidebar = document.querySelector('.header-sidebar')
-const slide_item = document.querySelector('.slide-item')
 
 // btn_menu.addEventListener("click", function(){ 
 //      sidebar.classList.toggle("sidebar-active")

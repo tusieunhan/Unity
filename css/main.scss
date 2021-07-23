@@ -13,7 +13,7 @@ $subtext-color: #636474;
     position: relative;
     left: 0;
     bottom: 0;
-    width: 255px;
+    width: 300px;
     box-shadow: inset -1px 0 0 0 #e4e4e4;
   }
   .sidebar-active {
@@ -21,7 +21,7 @@ $subtext-color: #636474;
   }
   .content {
     /* background-color: #6c5dd3; */
-    width: calc(100% - 255px);
+    width: 100%;
     // height: 5000px;
   }
   .footer-sidebar,
@@ -185,13 +185,15 @@ $subtext-color: #636474;
         opacity: 1
     }
 }
-
+.bx-menu{
+    display: none;
+}
   header{
       right: 0;
       z-index: 10000;
       height:96px;
       background-color: #fff;
-      width: calc(100% - 255px);
+      width: 100%;
       position:fixed;
       display: flex;
       justify-content: space-between;
@@ -212,7 +214,9 @@ $subtext-color: #636474;
       border-radius: 50%;
       position: relative;
   }
-  
+  .header-left{
+      margin-left: 200px;
+  }
   .header-left,
   .header-browse,
    .header-search,

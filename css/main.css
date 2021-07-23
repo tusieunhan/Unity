@@ -7,7 +7,7 @@
   position: relative;
   left: 0;
   bottom: 0;
-  width: 255px;
+  width: 300px;
   box-shadow: inset -1px 0 0 0 #e4e4e4;
 }
 
@@ -17,7 +17,7 @@
 
 .content {
   /* background-color: #6c5dd3; */
-  width: calc(100% - 255px);
+  width: 100%;
 }
 
 .footer-sidebar,
@@ -197,12 +197,16 @@
     opacity: 1;
   }
 }
+.bx-menu {
+  display: none;
+}
+
 header {
   right: 0;
   z-index: 10000;
   height: 96px;
   background-color: #fff;
-  width: calc(100% - 255px);
+  width: 100%;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -222,6 +226,10 @@ header i:hover {
   width: 3rem;
   border-radius: 50%;
   position: relative;
+}
+
+.header-left {
+  margin-left: 200px;
 }
 
 .header-left,
