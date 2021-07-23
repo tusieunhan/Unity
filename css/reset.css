@@ -1,0 +1,38 @@
+:root{
+    --main-color: #fff;
+    --text-color: #11142d;
+    --subText-color: #636474;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--txt-color);
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+p{
+    color: var(--subText-color)
+}
+/* i,span{
+    color: var(--subText-color)
+} */
+a {
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+}
+
+ul,li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
