@@ -62,7 +62,7 @@ function slide_show(index) {
 
           const img = index.indexOf("im");
           const img2 = index.slice(img,100)
-          const img3 = `url(../${img2})`
+          const img3 = `url(./${img2})`
           console.log(img3)
           Slide_img.style.backgroundImage = `${img3}`
           
